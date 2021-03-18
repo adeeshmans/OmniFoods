@@ -1,0 +1,43 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+html {
+ font-size: 20px;
+ font-weight: 300;
+ font-family: 'Roboto', Helvetica;
+ text-rendering: optimizeLegibility;
+ color: rgb(46, 45, 45)
+}
+
+.row {
+ width: 1140px;
+ margin: 0 auto 0 auto;
+}
+
+header {
+ background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(/html-css/omnifood/resources/img/hero.jpg);
+ background-size: cover;
+ background-position: center;
+ height: 100vh;
+}
+
+.hero-text-box {
+ position: absolute;
+ width: 1140px;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
+
+h1 {
+ margin: 0;
+ color: white;
+ font-size: 240%;
+ font-weight: 300;
+ text-transform: uppercase;
+ letter-spacing: 1px;
+ word-spacing: 3px;
+}
