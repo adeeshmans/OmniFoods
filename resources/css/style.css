@@ -30,16 +30,74 @@ html {
 /* ------------------------------------- */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------- */
+section {
+ padding: 88px 0;
+}
+
+h1,
+h2,
+h3 {
+ font-weight: 300;
+ text-transform: uppercase;
+ word-spacing: 3px;
+}
 
 h1 {
  margin-top: 0;
  margin-bottom: 20px;
  color: white;
  font-size: 240%;
- font-weight: 300;
- text-transform: uppercase;
  letter-spacing: 1px;
- word-spacing: 3px;
+}
+
+h2 {
+ font-size: 180%;
+ word-spacing: 2px;
+ text-align: center;
+ margin-bottom: 30px;
+ letter-spacing: 1px;
+}
+
+h3 {
+ font-size: 110%;
+ margin-bottom: 15px;
+}
+
+h2::after {
+ display: block;
+ height: 2px;
+ background-color: #e67e22;
+ width: 100px;
+ content: " ";
+ margin: 0 auto;
+ margin-top: 30px;
+}
+
+.box {
+ padding: 1%;
+}
+
+/* --------ICONS-------- */
+.icon-big {
+ font-size: 350%;
+ display: block;
+ color: #e67e22;
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+/* --------PARAGRAPHS-------- */
+.long-copy {
+ line-height: 145%;
+ width: 70%;
+ margin-left: 15%;
+}
+
+.box p {
+ font-size: 90%;
+ font-weight: 250;
+ line-height: 145%;
+
 }
 
 /* --------BUTTONS-------- */
@@ -88,7 +146,7 @@ h1 {
 /* ------------------------------------- */
 
 header {
- background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(/resources/css/img/hero.jpg);
+ background-image: linear-gradient(rgba(0, 0, 0, 0.705), rgba(0, 0, 0, 0.705)), url(/html-css/omnifood/resources/img/hero.jpg);
  background-size: cover;
  background-position: center;
  height: 100vh;
@@ -134,4 +192,38 @@ header {
 .main-nav li a:hover,
 .main-nav li a:active {
  border-bottom: 2px solid #e67e22;
+}
+
+/* ------------------------------------- */
+/* MEALS */
+/* ------------------------------------- */
+.section-meals {
+ padding: 0;
+}
+
+.meals-showcase {
+ list-style: none;
+ width: 100%;
+}
+
+.meals-showcase li {
+ display: block;
+ float: left;
+ width: 25%;
+}
+
+.meal-photo {
+ width: 100%;
+ margin: 0;
+ overflow: hidden
+}
+
+.meal-photo img {
+ width: 100%;
+ height: auto;
+ transform: scale(1.15)
+}
+
+.meal-photo img:hover {
+ transform: scale(1);
 }
