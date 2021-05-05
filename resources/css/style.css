@@ -109,7 +109,6 @@ h2::after {
  font-size: 90%;
  font-weight: 250;
  line-height: 145%;
-
 }
 
 /* --------BUTTONS-------- */
@@ -251,6 +250,10 @@ header {
  transform: scale(1.05);
 }
 
+.section-features .long-copy {
+ margin-bottom: 30px;
+}
+
 /* ------------------------------------- */
 /* HOW IT WORKS */
 /* ------------------------------------- */
@@ -297,4 +300,27 @@ header {
  width: auto;
  margin-right: 10px;
  margin-top: 25px;
+}
+
+/* ------------------------------------- */
+/* CITIES */
+/* ------------------------------------- */
+.box img {
+ width: 100%;
+ height: auto;
+ margin-bottom: 15px;
+}
+
+.city-features {
+ margin-bottom: 5px;
+}
+
+.icon-small {
+ display: inline-block;
+ width: 30px;
+ text-align: center;
+ color: #e67e22;
+ font-size: 120%;
+ margin-left: -5px;
+ margin-right: 5px;
 }
